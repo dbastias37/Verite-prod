@@ -1,1 +1,36 @@
+/* static/css/styles.css */
 
+/* Reset y base */
+* { margin:0; padding:0; box-sizing:border-box; }
+html { scroll-behavior: smooth; }
+body {
+  font-family: 'Inter', sans-serif;
+  line-height: 1.6;
+  color: #fff;
+  background: #000;
+  overflow-x: hidden;
+}
+
+/* Header */
+header { … }
+
+/* .nav-links, .logo, etc. */
+…
+
+/* Hero */
+.hero { … }
+.hero-content h1 { … }
+…
+
+/* Portfolio, About, Payment, FAQ, Footer… */
+…
+
+/* Animaciones */
+@keyframes fadeInUp { … }
+@keyframes shimmer { … }
+.animate-on-scroll { … }
+.animate-on-scroll.visible { … }
+
+/* Responsive */
+@media (max-width: 768px) { … }
+@media (max-width: 480px) { … }
